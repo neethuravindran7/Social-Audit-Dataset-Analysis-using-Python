@@ -20,7 +20,7 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 | Column | Description |
 | :--- | :--- |
 | State, District, Gram_Panchayat | Location details |
-| Financial_Year | 
+| Financial_Year | 2021-2025
 | Scheme_Name, Work_Type | 
 | Audited_By |
 | Total_Expenditure |
