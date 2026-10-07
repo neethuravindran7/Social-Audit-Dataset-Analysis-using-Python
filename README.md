@@ -1,5 +1,4 @@
 # 📊 Social Audit Dataset Analysis using Python
-### Internship Project - Phase 1 Completed ✅
 
 ## 📘 1. Project Introduction
 The Social Audit is a powerful tool to ensure transparency, accountability, and citizen participation in government welfare schemes like MGNREGA.
@@ -44,9 +43,7 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 - Checked inconsistencies using unique() - all values standardized
 - Outlier Checking using Boxplot
 
-## 📈 5. Phase 2 - Exploratory Data Analysis (EDA) (Completed) ✅
-
-### Key Insights & Visualizations (Purple Theme #4C1D95)
+### Key Insights & Visualizations 
 
 #### 1. State-wise Complaints Analysis
 - Tamil Nadu - Highest complaints: 263
@@ -73,7 +70,7 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 - Financial irregularities mostly in Wages_Paid and Material_Cost
 - Recovery rate varies across states - scope for improvement
 
-## 🔍 6. Phase 3 - Insight Generation and Report (Completed) ✅
+## 🔍 6. Phase 3 - Insight Generation and Report 
 
 ### 💡 SUGGESTIONS AND RECOMMENDATIONS
 
@@ -93,7 +90,7 @@ Misappropriation vs Pending Recovery has a strong positive correlation of 0.88, 
 Road Construction has the highest material cost of ₹14.97 Crores and Pond Desilting ₹14.79 Crores, making them high-risk for misappropriation. Prioritize audits on these infrastructure works with strict physical measurement verification. Study Tamil Nadu's model (10.81 Lakhs mandays with uniform complaints) and replicate it in low-mandays states like Bihar (9.01 Lakhs).
 
 ### 📌 CONCLUSION - MGNREGA Social Audit Project
-Analysis of 1916 social audit records after cleaning 84 duplicates and confirming 0 outliers shows that the social audit system is effective in detection but weak in closure. Strengthening recovery, ensuring timely audit closure, and focusing on material-intensive works like Roads and Ponds will improve transparency and accountability.
+Analysis of 1916 social audit records after cleaning 84 duplicates and confirming 0 outliers shows that the social audit system is effective in detection but weak in closure. Strengthening recovery, ensuring timely audit closure, and focusing on material-intensive works like Roads and Ponds will improve transparency and accountability beacause it eensure more mandays.
 
 ### 📊 Key Stats from Analysis
 - Highest Material Cost: Road Construction - ₹14.97 Crores (₹149,759,647)
