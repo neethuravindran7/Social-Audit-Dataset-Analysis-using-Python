@@ -42,7 +42,7 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 - Checked inconsistencies using unique() - all values standardized
 - Outlier Checking using Boxplot
 
-## 5. Phase 2 - Key Insights & Visualizations  (Editing)
+## 5. Phase 2 - Key Insights & Visualizations
 
 #### 1. State-wise Complaints Analysis
 - Tamil Nadu - Highest complaints: 263
