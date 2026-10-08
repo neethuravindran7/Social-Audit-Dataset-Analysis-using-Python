@@ -20,7 +20,7 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 | Column | Description |
 | :--- | :--- |
 | State, District, Gram_Panchayat | Location details |
-| Financial_Year | 2021-2025
+| Financial_Year | 
 | Scheme_Name, Work_Type | 
 | Audited_By |
 | Total_Expenditure |
@@ -42,7 +42,7 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 - Checked inconsistencies using unique() - all values standardized
 - Outlier Checking using Boxplot
 
-### Key Insights & Visualizations 
+## 5. Phase 2 - Key Insights & Visualizations  (Editing)
 
 #### 1. State-wise Complaints Analysis
 - Tamil Nadu - Highest complaints: 263
@@ -88,8 +88,41 @@ Misappropriation vs Pending Recovery has a strong positive correlation of 0.88, 
 5. Focus on High Material Cost Works & Replicate Best Practices:
 Road Construction has the highest material cost of ₹14.97 Crores and Pond Desilting ₹14.79 Crores, making them high-risk for misappropriation. Prioritize audits on these infrastructure works with strict physical measurement verification. Study Tamil Nadu's model (10.81 Lakhs mandays with uniform complaints) and replicate it in low-mandays states like Bihar (9.01 Lakhs).
 
-### 📌 CONCLUSION - MGNREGA Social Audit Project
-Analysis of 1916 social audit records after cleaning 84 duplicates and confirming 0 outliers shows that the social audit system is effective in detection but weak in closure. Strengthening recovery, ensuring timely audit closure, and focusing on material-intensive works like Roads and Ponds will improve transparency and accountability beacause it eensure more mandays.
+### 📈 Exploratory Data Analysis
+
+### 🔍 Key Insights
+1. Scheme-wise Total Misappropriation 
+- PMAY-G highest fraud ∼2.95 Cr
+- SBM-G lowest ∼2.42 Cr
+- PMAY-G housing scheme most vulnerable
+
+2. Univariate Analysis
+- Misappropriation Amount: 0 to 1.49L, Mean 68,748, Median 67,696. Peak at 0-5k range (240 cases), but uniform till 1.4L - fraud at all levels
+- *Audit Status:* Under Review 21.1% (405) highest, Closed 20.9% (400), ATR Pending 20.9% (400), Pending Recovery 19.1% (365), Completed 18.1% (346) lowest - only 18% audits completed
+- *Total Expenditure :* Median ∼1.0L, Q1 0.55L, Q3 1.45L, Range 0-2L, No outliers - fairly distributed[Boxplot]
+
+*3. Bivariate Analysis*
+- *Scheme vs Fraud:* PMAY-G 2.95 Cr > MGNREGA 2.65 Cr > PMGSY 2.50 Cr > NSAP 2.53 Cr > SBM-G 2.42 Cr
+- *Expenditure vs Misappropriation :* No correlation, random distribution. Fraud independent of expenditure. All audit statuses mixed uniformly[Scatter]
+
+*4. Groupby - District-wise Misappropriation*
+- Udaipur highest total fraud 89,54,404 (118 cases)
+- Chennai highest fraud cases 133, but avg low 66,629 - frequent small frauds
+- Gaya highest avg fraud per case 77,300 - high-value frauds
+- Top 8 districts uniform 86L - 89L range
+
+*5. Pivot Table - District vs Audit_Status*
+- Fraud distributed across all audit stages
+- Audit status independent of district
+- No concentration in single stage
+
+*6. Correlation Heatmap - Multivariate*
+- Misappropriation vs Pending_Recovery = *0.88 strong positive* - pending directly linked to fraud
+- Recovery vs Pending_Recovery = -0.46 negative - as pending increases, recovery decreases
+- All other variables correlation near 0 - independent
+
+### 📌 CONCLUSION - Social Audit Project
+Analysis of social audit records under MGNREGA and allied schemes identifies expenditure patterns, misappropriation trends, scheme-wise vulnerabilities, state-wise fraud distribution, and audit status gaps also shows that the social audit system is effective in detection but weak in closure. Strengthening recovery, ensuring timely audit closure, and focusing on material-intensive works like Roads and Ponds will improve the mandays for workers and impact on economic growth of states.
 
 ### 📊 Key Stats from Analysis
 - Highest Material Cost: Road Construction - ₹14.97 Crores (₹149,759,647)
