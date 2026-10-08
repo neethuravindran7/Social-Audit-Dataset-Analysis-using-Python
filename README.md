@@ -69,7 +69,7 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 
 ### 🔍 Key Insights
 
-*1. Scheme-wise Total Misappropriation *
+*1. Scheme-wise Total Misappropriation*
 - PMAY-G highest fraud ∼2.95 Cr
 - SBM-G lowest ∼2.42 Cr
 - PMAY-G housing scheme most vulnerable
@@ -122,14 +122,11 @@ Road Construction has the highest material cost of ₹14.97 Crores and Pond Desi
 ### 📌 CONCLUSION - Social Audit Project
 Analysis of social audit records under MGNREGA and allied schemes identifies expenditure patterns, misappropriation trends, scheme-wise vulnerabilities, state-wise fraud distribution, and audit status gaps also shows that the social audit system is effective in detection but weak in closure. Strengthening recovery, ensuring timely audit closure, and focusing on material-intensive works like Roads and Ponds will improve the mandays for workers and impact on economic growth of states.
 
-### 📊 Key Stats from Analysis
-- Highest Material Cost: Road Construction - ₹14.97 Crores (₹149,759,647)
-- Second Highest: Pond Desilting - ₹14.79 Crores
-- Lowest in Top 5: Toilet Construction - ₹11.92 Crores (small-scale structure)
-- Final Dataset: 1916 entries, 20 columns, 0 null values
 
 ## 🛠️ Tools
-Python, Pandas, NumPy, Matplotlib, Seaborn, GitHub
+Language: Python
+Libraries: Pandas, NumPy, Matplotlib, Seaborn, Plotly
+Environment: Jupyter Notebook
 
 ## 👩‍💻 Author
 Neethu P 
