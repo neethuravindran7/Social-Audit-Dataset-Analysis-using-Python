@@ -70,33 +70,16 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 - Recovery rate varies across states - scope for improvement
 
 ## 🔍 6. Phase 3 - Insight Generation and Report 
-
-### 💡 SUGGESTIONS AND RECOMMENDATIONS
-
-1. Immediate Action on PMAY-G Scheme:
-PMAY-G has the highest total misappropriation of ₹2.95 Crores, which is 21.9% higher than SBM-G. Since this scheme involves material procurement like cement, steel, and bricks, implement mandatory geo-tagged material bills with third-party verification. Make 100% social audit compulsory for PMAY-G.
-
-2. Fix the Pending Audit Status:
-60.9% of audits are still pending - Under Review 21.1%, ATR Pending 20.9%, and Pending Recovery 19.1%. Only 39% are closed or completed. Introduce a strict 30-day deadline for Action Taken Report submission with auto-redirection to BDO and District Collector.
-
-3. Equal Audit for All Work Sizes:
-Correlation between Total Expenditure and Misappropriation is only 0.01, meaning fraud does not depend on budget size. A small work of ₹50,000 can have ₹1.4 Lakhs fraud while a large work of ₹20 Lakhs can have zero fraud. Implement random sampling audit for all sizes.
-
-4. Strengthen Recovery Mechanism:
-Misappropriation vs Pending Recovery has a strong positive correlation of 0.88, and Recovery vs Pending has a negative correlation of -0.46. To improve recovery, link pending recovery with the next fund release for the Gram Panchayat. Apply rule: No recovery, No next installment.
-
-5. Focus on High Material Cost Works & Replicate Best Practices:
-Road Construction has the highest material cost of ₹14.97 Crores and Pond Desilting ₹14.79 Crores, making them high-risk for misappropriation. Prioritize audits on these infrastructure works with strict physical measurement verification. Study Tamil Nadu's model (10.81 Lakhs mandays with uniform complaints) and replicate it in low-mandays states like Bihar (9.01 Lakhs).
-
 ### 📈 Exploratory Data Analysis
 
 ### 🔍 Key Insights
-1. Scheme-wise Total Misappropriation 
+
+*1. Scheme-wise Total Misappropriation *
 - PMAY-G highest fraud ∼2.95 Cr
 - SBM-G lowest ∼2.42 Cr
 - PMAY-G housing scheme most vulnerable
 
-2. Univariate Analysis
+*2. Univariate Analysis*
 - Misappropriation Amount: 0 to 1.49L, Mean 68,748, Median 67,696. Peak at 0-5k range (240 cases), but uniform till 1.4L - fraud at all levels
 - *Audit Status:* Under Review 21.1% (405) highest, Closed 20.9% (400), ATR Pending 20.9% (400), Pending Recovery 19.1% (365), Completed 18.1% (346) lowest - only 18% audits completed
 - *Total Expenditure :* Median ∼1.0L, Q1 0.55L, Q3 1.45L, Range 0-2L, No outliers - fairly distributed[Boxplot]
@@ -120,6 +103,24 @@ Road Construction has the highest material cost of ₹14.97 Crores and Pond Desi
 - Misappropriation vs Pending_Recovery = *0.88 strong positive* - pending directly linked to fraud
 - Recovery vs Pending_Recovery = -0.46 negative - as pending increases, recovery decreases
 - All other variables correlation near 0 - independent
+
+### 💡 SUGGESTIONS AND RECOMMENDATIONS
+
+1. Immediate Action on PMAY-G Scheme:
+PMAY-G has the highest total misappropriation of ₹2.95 Crores, which is 21.9% higher than SBM-G. Since this scheme involves material procurement like cement, steel, and bricks, implement mandatory geo-tagged material bills with third-party verification. Make 100% social audit compulsory for PMAY-G.
+
+2. Fix the Pending Audit Status:
+60.9% of audits are still pending - Under Review 21.1%, ATR Pending 20.9%, and Pending Recovery 19.1%. Only 39% are closed or completed. Introduce a strict 30-day deadline for Action Taken Report submission with auto-redirection to BDO and District Collector.
+
+3. Equal Audit for All Work Sizes:
+Correlation between Total Expenditure and Misappropriation is only 0.01, meaning fraud does not depend on budget size. A small work of ₹50,000 can have ₹1.4 Lakhs fraud while a large work of ₹20 Lakhs can have zero fraud. Implement random sampling audit for all sizes.
+
+4. Strengthen Recovery Mechanism:
+Misappropriation vs Pending Recovery has a strong positive correlation of 0.88, and Recovery vs Pending has a negative correlation of -0.46. To improve recovery, link pending recovery with the next fund release for the Gram Panchayat. Apply rule: No recovery, No next installment.
+
+5. Focus on High Material Cost Works & Replicate Best Practices:
+Road Construction has the highest material cost of ₹14.97 Crores and Pond Desilting ₹14.79 Crores, making them high-risk for misappropriation. Prioritize audits on these infrastructure works with strict physical measurement verification. Study Tamil Nadu's model (10.81 Lakhs mandays with uniform complaints) and replicate it in low-mandays states like Bihar (9.01 Lakhs).
+
 
 ### 📌 CONCLUSION - Social Audit Project
 Analysis of social audit records under MGNREGA and allied schemes identifies expenditure patterns, misappropriation trends, scheme-wise vulnerabilities, state-wise fraud distribution, and audit status gaps also shows that the social audit system is effective in detection but weak in closure. Strengthening recovery, ensuring timely audit closure, and focusing on material-intensive works like Roads and Ponds will improve the mandays for workers and impact on economic growth of states.
