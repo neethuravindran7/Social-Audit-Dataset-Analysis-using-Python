@@ -47,17 +47,15 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 #### 1. State-wise Complaints Analysis
 - Tamil Nadu - Highest complaints: 263
 - Telangana, Andhra Pradesh follow
-- Plot: sns.barplot(palette='Purples_r')
 
 #### 2. State-wise Mandays Generated
 - Tamil Nadu - Max Mandays: 10,81,873
 - Karnataka, AP high generation
-- Plot: Horizontal bar with dark purple theme
+- Plot: Horizontal bar 
 
 #### 3. Correlation Heatmap
 - High correlation between Total_Expenditure and Misappropriation_Amount (0.88)
 - Misappropriation_Amount vs Recovery_Amount positively correlated
-- Plot: sns.heatmap(cmap='Purples', annot=True)
 
 #### 4. Financial Analysis
 - Total Misappropriation identified state-wise
@@ -68,9 +66,6 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 - Tamil Nadu leads in both complaints and mandays - indicates active social audit process
 - Financial irregularities mostly in Wages_Paid and Material_Cost
 - Recovery rate varies across states - scope for improvement
-
-## 🔍 6. Phase 3 - Insight Generation and Report 
-### 📈 Exploratory Data Analysis
 
 ### 🔍 Key Insights
 
@@ -104,6 +99,8 @@ This project aims to analyze the Social Audit dataset to track financial misappr
 - Recovery vs Pending_Recovery = -0.46 negative - as pending increases, recovery decreases
 - All other variables correlation near 0 - independent
 
+
+## 🔍 6. Phase 3 - Insight Generation and Report 
 ### 💡 SUGGESTIONS AND RECOMMENDATIONS
 
 1. Immediate Action on PMAY-G Scheme:
